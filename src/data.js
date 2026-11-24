@@ -1,0 +1,92 @@
+export const PROJECTS = [
+  {
+    id: 'halcyon',
+    index: '01',
+    title: 'HALCYON',
+    subtitle: 'A generative identity engine',
+    kind: 'Brand Systems',
+    year: '2025',
+    role: 'Creative Direction',
+    client: 'Halcyon Labs',
+    description:
+      'A living identity that composes itself in real time. Thousands of generated marks resolve into one coherent language, tuned by a small set of human-defined rules and a very large set of possibilities.',
+    tags: ['Generative', 'Identity', 'Motion', 'WebGL'],
+    metrics: [
+      { value: '12.4K', label: 'Marks generated' },
+      { value: '38%', label: 'Recall uplift' },
+      { value: '04', label: 'Markets' },
+    ],
+  },
+  {
+    id: 'vesper',
+    index: '02',
+    title: 'VESPER',
+    subtitle: 'Spatial commerce, reimagined',
+    kind: 'Product Design',
+    year: '2026',
+    role: 'Product Design',
+    client: 'Vesper House',
+    description:
+      'A storefront with no shelves. Products float in an explorable space where material, light, and scale do the work of a sales floor. Built around a checkout that never leaves the room.',
+    tags: ['Commerce', '3D', 'Interaction', 'AR'],
+    metrics: [
+      { value: '2.4M', label: 'Sessions' },
+      { value: '+61%', label: 'Add to cart' },
+      { value: '1.2s', label: 'Time to first paint' },
+    ],
+  },
+  {
+    id: 'orbital',
+    index: '03',
+    title: 'ORBITAL',
+    subtitle: 'A realtime data observatory',
+    kind: 'Data Experience',
+    year: '2025',
+    role: 'Design Engineering',
+    client: 'Orbital Systems',
+    description:
+      'Telemetry from 4,000 satellites, rendered as a single navigable sphere. Operators scrub through time, isolate constellations, and read anomalies as physical events rather than charts.',
+    tags: ['Realtime', 'Data Viz', 'Three.js', 'GIS'],
+    metrics: [
+      { value: '4,018', label: 'Live objects' },
+      { value: '60fps', label: 'Sustained render' },
+      { value: '18ms', label: 'Frame budget' },
+    ],
+  },
+  {
+    id: 'monolith',
+    index: '04',
+    title: 'MONOLITH',
+    subtitle: 'An editorial experience system',
+    kind: 'Publishing',
+    year: '2024',
+    role: 'Art Direction',
+    client: 'Monolith Press',
+    description:
+      'Long-form publishing rebuilt as a sequence of rooms. Each story gets its own architecture — typography, pace, and light tuned to the writing rather than the template.',
+    tags: ['Editorial', 'Type', 'CMS', 'Art Direction'],
+    metrics: [
+      { value: '9min', label: 'Avg. read time' },
+      { value: '+74%', label: 'Completion' },
+      { value: '31', label: 'Stories shipped' },
+    ],
+  },
+  {
+    id: 'prism',
+    index: '05',
+    title: 'PRISM',
+    subtitle: 'An adaptive design language',
+    kind: 'Design Infrastructure',
+    year: '2026',
+    role: 'Systems Design',
+    client: 'Prism Collective',
+    description:
+      'A token architecture that survives contact with reality. One source of truth spanning web, native, and spatial surfaces — with contrast, motion, and density rules that adapt to context.',
+    tags: ['Design System', 'Tokens', 'Figma', 'Docs'],
+    metrics: [
+      { value: '1,840', label: 'Tokens' },
+      { value: '6', label: 'Platforms' },
+      { value: '<2%', label: 'Drift' },
+    ],
+  },
+]
